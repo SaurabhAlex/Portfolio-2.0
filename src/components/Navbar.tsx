@@ -48,9 +48,15 @@ export default function Navbar() {
                         Contact
                         <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
                     </a>
-                    <button className="ml-4 px-8 py-2.5 border border-white/20 text-white font-bold text-[14px] rounded-2xl hover:bg-white/10 transition-all active:scale-95">
-                        Resume
-                    </button>
+                    <a
+                        href="https://drive.google.com/file/d/1XrjtBjZlfEmcpNwD_cpeW5Q_TwCY3MkS/view?usp=sharing"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <button className="ml-4 px-8 py-2.5 border border-white/20 text-white font-bold text-[14px] rounded-2xl hover:bg-white/10 transition-all active:scale-95">
+                            Resume
+                        </button>
+                    </a>
                 </div>
                 <button className="md:hidden text-on-surface">
                     <span className="material-symbols-outlined">menu</span>

@@ -9,7 +9,13 @@ export default function HomeSection() {
 
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center relative z-10">
                 <div className="lg:col-span-7 space-y-6">
-                    <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-white/10 bg-black/40 text-[#00f0ff] font-bold text-[10px] tracking-widest uppercase">
+                    <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-cyan-400/20 bg-black/40 text-[#00f0ff] font-bold text-[10px] tracking-widest uppercase backdrop-blur-md shadow-[0_0_20px_rgba(0,240,255,0.15)] animate-pulse [animation-duration:1.0s]">
+
+                        <span className="relative flex h-2 w-2">
+                            <span className="animate-ping [animation-duration:1s] absolute inline-flex h-full w-full rounded-full bg-[#00f0ff] opacity-75"></span>
+                            <span className="relative inline-flex rounded-full h-2 w-2 bg-[#00f0ff]"></span>
+                        </span>
+
                         Available for Projects
                     </div>
 
@@ -25,13 +31,23 @@ export default function HomeSection() {
                     </p>
 
                     <div className="flex flex-wrap gap-5 pt-4">
-                        <button className="px-10 py-4 bg-[#00f0ff] text-black font-black rounded-2xl flex items-center gap-3 hover:scale-105 transition-all shadow-[0_0_30px_rgba(0,240,255,0.4)]">
-                            <span className="text-lg">View Projects</span>
-                            <span className="material-symbols-outlined font-bold">arrow_forward</span>
-                        </button>
-                        <button className="px-10 py-4 border border-white/20 text-white font-black rounded-2xl hover:bg-white/5 transition-all">
-                            Contact Me
-                        </button>
+                        <a
+                            href="#projects"
+                        >
+                            <button className="px-10 py-4 bg-[#00f0ff] text-black font-black rounded-2xl flex items-center gap-3 hover:scale-105 transition-all shadow-[0_0_30px_rgba(0,240,255,0.4)]">
+                                <span className="text-lg">View Projects</span>
+                                <span className="material-symbols-outlined font-bold">arrow_forward</span>
+                            </button>
+                            <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
+                        </a>
+                        <a
+                            href="#contact"
+                        >
+                            <button className="px-10 py-4 border border-white/20 text-white font-black rounded-2xl hover:bg-white/5 transition-all">
+                                Contact Me
+                            </button>
+                            <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
+                        </a>
                     </div>
                 </div>
 
@@ -43,11 +59,10 @@ export default function HomeSection() {
 
                         <div className="relative w-full h-full overflow-hidden rounded-[2rem] border border-white/10">
                             <img
+                                src="/images/saurabh.png"
                                 alt="Saurabh Gupta"
-                                className="w-full h-full object-cover grayscale brightness-90 hover:grayscale-0 transition-all duration-700"
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDqgJ4caFRmxLLDRDAEpg5wbp1T2mXgul0oP9WShmrsfNIwxOeUtd6ewMHhfbT_qfd0fwU0V4_M6LBZ2_ke0u0fLdGcPnCSW5rkY-v8flAlukGe-kUY-jX0tplZRseJP1I4kcTveCEumJ_Kx9BY3c9oxQ5L-TsIlNZPkE1ikOwdcgFGMy9eewrvQdrX4A6M4Am5ha6GJ-NwLizdHWSfoJtKXmw8Opt5hUP8Qjz7GQWiuIEBShSCo5NOSmh4Ow8Tx2NXXQHKOekyfUQ"
+                                className="w-full h-full object-cover rounded-[32px] brightness-95 contrast-110 hover:scale-[1.02] transition-all duration-700"
                             />
-
                             {/* Glass card - exactly as Screenshot 1 */}
                             <div className="absolute bottom-8 left-8 right-8 bg-black/30 backdrop-blur-2xl border border-white/10 p-6 rounded-2xl flex items-center gap-4">
                                 <div className="w-12 h-12 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center">

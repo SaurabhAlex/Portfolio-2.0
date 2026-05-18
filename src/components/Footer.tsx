@@ -14,16 +14,37 @@ export default function Footer() {
                     </p>
                 </div>
                 <div className="flex gap-8">
-                    <a className="text-xs font-medium text-on-surface-variant hover:text-primary-container transition-colors" href="#">
+                    <a
+                        className="text-xs font-medium text-on-surface-variant hover:text-primary-container transition-colors"
+                        href="https://github.com/SaurabhAlex"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         GitHub
                     </a>
-                    <a className="text-xs font-medium text-on-surface-variant hover:text-primary-container transition-colors" href="#">
+
+                    <a
+                        className="text-xs font-medium text-on-surface-variant hover:text-primary-container transition-colors"
+                        href="https://www.linkedin.com/in/saurabhguptasde/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         LinkedIn
                     </a>
-                    <a className="text-xs font-medium text-on-surface-variant hover:text-primary-container transition-colors" href="#">
-                        Twitter
+
+                    <a
+                        className="text-xs font-medium text-on-surface-variant hover:text-primary-container transition-colors"
+                        href="https://leetcode.com/u/saurabhgupta_/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        LeetCode
                     </a>
-                    <a className="text-xs font-medium text-on-surface-variant hover:text-primary-container transition-colors" href="#">
+
+                    <a
+                        className="text-xs font-medium text-on-surface-variant hover:text-primary-container transition-colors"
+                        href="mailto:saurabhguptasde@gmail.com"
+                    >
                         Email
                     </a>
                 </div>

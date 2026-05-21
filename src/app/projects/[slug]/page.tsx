@@ -4,12 +4,13 @@ import type { Metadata } from "next";
 import { getProjectBySlug } from "@/lib/data/projects";
 import ProjectDetailTemplate from "@/components/templates/ProjectDetailTemplate";
 
-export function generateMetadata({
+export async function generateMetadata({
     params,
 }: {
-    params: { slug: string };
-}): Metadata {
-    const project = getProjectBySlug(params.slug);
+    params: Promise<{ slug: string }>;
+}): Promise<Metadata> {
+    const { slug } = await params;
+    const project = getProjectBySlug(slug);
 
     if (!project) {
         return {
@@ -23,8 +24,9 @@ export function generateMetadata({
     };
 }
 
-export default function ProjectPage({ params }: { params: { slug: string } }) {
-    const project = getProjectBySlug(params.slug);
+export default async function ProjectPage({ params }: { params: Promise<{ slug: string }> }) {
+    const { slug } = await params;
+    const project = getProjectBySlug(slug);
 
     if (!project) {
         notFound();

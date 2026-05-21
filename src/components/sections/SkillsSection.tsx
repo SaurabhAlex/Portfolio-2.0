@@ -16,16 +16,26 @@ export default function SkillsSection() {
                             smartphone
                         </span>
                     </div>
-                    <h3 className="font-bold text-lg mb-4 text-on-surface">Mobile</h3>
+
+                    <h3 className="font-bold text-lg mb-4 text-on-surface">
+                        Mobile Development
+                    </h3>
+
                     <div className="flex flex-wrap gap-2">
                         <span className="px-3 py-1 text-[10px] font-bold tracking-wider uppercase bg-surface-bright/50 text-on-surface-variant rounded-lg border border-white/5">
                             Flutter
                         </span>
+
                         <span className="px-3 py-1 text-[10px] font-bold tracking-wider uppercase bg-surface-bright/50 text-on-surface-variant rounded-lg border border-white/5">
                             Dart
                         </span>
+
                         <span className="px-3 py-1 text-[10px] font-bold tracking-wider uppercase bg-surface-bright/50 text-on-surface-variant rounded-lg border border-white/5">
-                            Swift UI
+                            Android
+                        </span>
+
+                        <span className="px-3 py-1 text-[10px] font-bold tracking-wider uppercase bg-surface-bright/50 text-on-surface-variant rounded-lg border border-white/5">
+                            iOS
                         </span>
                     </div>
                 </div>
@@ -39,16 +49,26 @@ export default function SkillsSection() {
                             database
                         </span>
                     </div>
-                    <h3 className="font-bold text-lg mb-4 text-on-surface">Backend</h3>
+
+                    <h3 className="font-bold text-lg mb-4 text-on-surface">
+                        Backend & APIs
+                    </h3>
+
                     <div className="flex flex-wrap gap-2">
+                        <span className="px-3 py-1 text-[10px] font-bold tracking-wider uppercase bg-surface-bright/50 text-on-surface-variant rounded-lg border border-white/5">
+                            REST APIs
+                        </span>
+
+                        <span className="px-3 py-1 text-[10px] font-bold tracking-wider uppercase bg-surface-bright/50 text-on-surface-variant rounded-lg border border-white/5">
+                            Firebase
+                        </span>
+
                         <span className="px-3 py-1 text-[10px] font-bold tracking-wider uppercase bg-surface-bright/50 text-on-surface-variant rounded-lg border border-white/5">
                             FastAPI
                         </span>
+
                         <span className="px-3 py-1 text-[10px] font-bold tracking-wider uppercase bg-surface-bright/50 text-on-surface-variant rounded-lg border border-white/5">
-                            Node.js
-                        </span>
-                        <span className="px-3 py-1 text-[10px] font-bold tracking-wider uppercase bg-surface-bright/50 text-on-surface-variant rounded-lg border border-white/5">
-                            Firebase
+                            JWT Auth
                         </span>
                     </div>
                 </div>
@@ -62,16 +82,26 @@ export default function SkillsSection() {
                             psychology
                         </span>
                     </div>
-                    <h3 className="font-bold text-lg mb-4 text-on-surface">AI &amp; ML</h3>
+
+                    <h3 className="font-bold text-lg mb-4 text-on-surface">
+                        Architecture & State
+                    </h3>
+
                     <div className="flex flex-wrap gap-2">
                         <span className="px-3 py-1 text-[10px] font-bold tracking-wider uppercase bg-surface-bright/50 text-on-surface-variant rounded-lg border border-white/5">
-                            OpenAI API
+                            Bloc
                         </span>
+
                         <span className="px-3 py-1 text-[10px] font-bold tracking-wider uppercase bg-surface-bright/50 text-on-surface-variant rounded-lg border border-white/5">
-                            TensorFlow
+                            GetX
                         </span>
+
                         <span className="px-3 py-1 text-[10px] font-bold tracking-wider uppercase bg-surface-bright/50 text-on-surface-variant rounded-lg border border-white/5">
-                            LangChain
+                            Clean Architecture
+                        </span>
+
+                        <span className="px-3 py-1 text-[10px] font-bold tracking-wider uppercase bg-surface-bright/50 text-on-surface-variant rounded-lg border border-white/5">
+                            Repository Pattern
                         </span>
                     </div>
                 </div>
@@ -82,19 +112,29 @@ export default function SkillsSection() {
                             className="material-symbols-outlined text-primary-container text-2xl"
                             style={{ fontVariationSettings: "'FILL' 1" }}
                         >
-                            palette
+                            terminal
                         </span>
                     </div>
-                    <h3 className="font-bold text-lg mb-4 text-on-surface">UI/UX</h3>
+
+                    <h3 className="font-bold text-lg mb-4 text-on-surface">
+                        Tools & Deployment
+                    </h3>
+
                     <div className="flex flex-wrap gap-2">
                         <span className="px-3 py-1 text-[10px] font-bold tracking-wider uppercase bg-surface-bright/50 text-on-surface-variant rounded-lg border border-white/5">
-                            Figma
+                            GitHub
                         </span>
+
                         <span className="px-3 py-1 text-[10px] font-bold tracking-wider uppercase bg-surface-bright/50 text-on-surface-variant rounded-lg border border-white/5">
-                            Material 3
+                            Codemagic
                         </span>
+
                         <span className="px-3 py-1 text-[10px] font-bold tracking-wider uppercase bg-surface-bright/50 text-on-surface-variant rounded-lg border border-white/5">
-                            Motion
+                            Play Store
+                        </span>
+
+                        <span className="px-3 py-1 text-[10px] font-bold tracking-wider uppercase bg-surface-bright/50 text-on-surface-variant rounded-lg border border-white/5">
+                            App Store
                         </span>
                     </div>
                 </div>
@@ -102,4 +142,3 @@ export default function SkillsSection() {
         </section>
     );
 }
-

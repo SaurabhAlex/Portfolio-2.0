@@ -1,6 +1,6 @@
 export default function ExperienceSection() {
     return (
-        <section className="py-6 px-12 max-w-[1400px] mx-auto" id="experience">
+        <section className="py-6 px-4 sm:px-8 md:px-12 max-w-[1400px] mx-auto" id="experience">
             <div className="text-center mb-stack-lg">
                 <h2 className="font-headline-md text-headline-md mb-4">Professional Journey</h2>
                 <div className="w-12 h-1 bg-primary-container mx-auto rounded-full" />
@@ -9,7 +9,7 @@ export default function ExperienceSection() {
 
                 {/* Infinite Group */}
                 <div className="relative pl-12 border-l border-white/5 pb-8">
-                    <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full bg-primary-container shadow-[0_0_15px_rgba(0,240,255,0.5)]" />
+                    <div className="absolute -left-[9px] top-[32px] w-4 h-4 rounded-full bg-primary-container shadow-[0_0_15px_rgba(0,240,255,0.5)]" />
                     <div className="glass-card p-8 rounded-3xl bg-surface-container/20 border-white/5">
                         <div className="flex flex-col sm:flex-row justify-between items-start mb-6 gap-2">
                             <div>
@@ -23,7 +23,7 @@ export default function ExperienceSection() {
                             live on Google Play Store and App Store. Own end-to-end architecture, feature development,
                             CI/CD pipeline, and cross-platform deployment.
                         </p>
-                        <ul className="text-on-surface-variant text-sm space-y-2">
+                        <ul className="text-on-surface-variant text-sm space-y-3">
                             <li>→ Architected BLoC + Clean Architecture (feature-first) across all 5 user roles</li>
                             <li>→ Built Dio interceptor pipeline for JWT silent refresh — session failures reduced to near-zero</li>
                             <li>→ Designed role-scoped FCM token isolation for push notification delivery across 5 personas</li>
@@ -43,7 +43,7 @@ export default function ExperienceSection() {
 
                 {/* DSD Systems */}
                 <div className="relative pl-12 border-l border-white/5 pb-8">
-                    <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full border-2 border-primary-container bg-[#0a0a0c]" />
+                    <div className="absolute -left-[9px] top-[32px] w-4 h-4 rounded-full border-2 border-primary-container bg-[#0a0a0c]" />
                     <div className="glass-card p-8 rounded-3xl bg-surface-container/20 border-white/5">
                         <div className="flex flex-col sm:flex-row justify-between items-start mb-6 gap-2">
                             <div>
@@ -56,7 +56,7 @@ export default function ExperienceSection() {
                             Joined as the sole Flutter developer at an early-stage startup — took full ownership
                             of mobile development from architecture decisions to Play Store and App Store deployment.
                         </p>
-                        <ul className="text-on-surface-variant text-sm space-y-2">
+                        <ul className="text-on-surface-variant text-sm space-y-3">
                             <li>→ Owned 6 Flutter features end-to-end across full SDLC with zero post-launch regression</li>
                             <li>→ Designed reusable component library — accelerated UI development by ~30%</li>
                             <li>→ Improved crash rate by 50%+ through structured error handling and API flow refactoring</li>
@@ -74,7 +74,7 @@ export default function ExperienceSection() {
 
                 {/* Digicoders */}
                 <div className="relative pl-12 border-l border-white/5">
-                    <div className="absolute -left-[9px] top-0 w-4 h-4 rounded-full border-2 border-primary-container bg-[#0a0a0c]" />
+                    <div className="absolute -left-[9px] top-[32px] w-4 h-4 rounded-full border-2 border-primary-container bg-[#0a0a0c]" />
                     <div className="glass-card p-8 rounded-3xl bg-surface-container/20 border-white/5">
                         <div className="flex flex-col sm:flex-row justify-between items-start mb-6 gap-2">
                             <div>
@@ -87,7 +87,7 @@ export default function ExperienceSection() {
                             Contributed to e-commerce mobile app development using Flutter — built core
                             shopping modules with Firebase backend and local data persistence.
                         </p>
-                        <ul className="text-on-surface-variant text-sm space-y-2">
+                        <ul className="text-on-surface-variant text-sm space-y-3">
                             <li>→ Built product listing, cart, checkout, and order flow modules in Flutter/Dart</li>
                             <li>→ Integrated Provider for state management and Firebase Realtime Database for backend sync</li>
                             <li>→ Implemented SQLite for local data persistence and offline access</li>

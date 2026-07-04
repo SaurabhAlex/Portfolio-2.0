@@ -8,7 +8,7 @@ function TechStackChips({ techStack }: { techStack?: string[] }) {
     if (!techStack?.length) return null;
 
     return (
-        <div className="flex flex-wrap gap-2 mb-5">
+        <div className="flex flex-wrap gap-2 mb-5 max-h-[56px] overflow-hidden relative">
             {techStack.map((tech) => (
                 <span
                     key={tech}
@@ -17,6 +17,7 @@ function TechStackChips({ techStack }: { techStack?: string[] }) {
                     {tech}
                 </span>
             ))}
+            <div className="absolute bottom-0 left-0 right-0 h-4 bg-gradient-to-t from-surface-container/80 to-transparent" />
         </div>
     );
 }
@@ -58,7 +59,7 @@ export default function ProjectCard({ project }: { project: Project }) {
                 </div>
             </Link>
             
-            <div className="flex flex-col flex-grow p-8">
+            <div className="flex flex-col flex-1 p-8">
                 <div className="flex justify-between items-start mb-4">
                     <span className="px-3 py-1 bg-primary-container/10 text-primary-container text-[10px] font-bold tracking-widest uppercase rounded-full border border-primary-container/20">
                         {project.category}
@@ -76,7 +77,7 @@ export default function ProjectCard({ project }: { project: Project }) {
                     </h3>
                 </Link>
 
-                <div className="flex-grow">
+                <div className="flex-1">
                     <TechStackChips techStack={project.techStack} />
 
                     <p className="text-on-surface-variant text-sm mb-6 line-clamp-3 leading-relaxed">
@@ -86,7 +87,7 @@ export default function ProjectCard({ project }: { project: Project }) {
                     <DescriptionPoints descriptionPoints={project.descriptionPoints} />
                 </div>
 
-                <div className="mt-auto space-y-6">
+                <div className="mt-auto pt-4 space-y-6">
                     {project.playStoreUrl ? (
                         <a
                             href={project.playStoreUrl}
@@ -99,7 +100,7 @@ export default function ProjectCard({ project }: { project: Project }) {
                         </a>
                     ) : null}
 
-                    <div className="flex items-center gap-2 pt-4 border-t border-white/5">
+                    <div className="flex items-center gap-2 border-t border-white/5">
                         <span className="material-symbols-outlined text-primary-container text-xl opacity-60">
                             format_quote
                         </span>
@@ -112,5 +113,3 @@ export default function ProjectCard({ project }: { project: Project }) {
         </div>
     );
 }
-
-

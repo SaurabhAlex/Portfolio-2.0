@@ -1,7 +1,7 @@
 export default function HomeSection() {
     return (
         <section
-            className="relative pt-[120px] pb-24 px-12 max-w-[1400px] mx-auto min-h-screen flex flex-col justify-center overflow-hidden"
+            className="relative pt-[120px] pb-24 px-4 sm:px-8 md:px-12 max-w-[1400px] mx-auto min-h-screen flex flex-col justify-center overflow-hidden"
             id="home"
         >
             {/* Background Glows */}
@@ -17,10 +17,8 @@ export default function HomeSection() {
                         Open to New Roles · Delhi NCR
                     </div>
 
-                    <h1 className="text-[32px] md:text-[58px] font-black text-white leading-[0.98] tracking-tighter max-w-[850px]">
-                        Software Developer | <br />
-                        <span className="text-[#00f0ff]">Flutter · FastAPI</span> | <br />
-                        Mobile + Backend
+                    <h1 className="text-[32px] md:text-[48px] font-black text-white leading-[1.05] tracking-tighter max-w-[850px]">
+                        Software Developer | <span className="text-[#00f0ff]">Flutter · FastAPI</span> | Mobile + Backend
                     </h1>
 
                     <p className="text-gray-400 text-lg md:text-xl max-w-xl leading-relaxed font-medium">

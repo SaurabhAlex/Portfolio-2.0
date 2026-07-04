@@ -49,7 +49,7 @@ export default function Navbar() {
                         <span className="absolute -bottom-1 left-0 w-full h-0.5 bg-white scale-x-0 group-hover:scale-x-100 transition-transform origin-left" />
                     </a>
                     <a
-                        href="https://drive.google.com/file/d/1XrjtBjZlfEmcpNwD_cpeW5Q_TwCY3MkS/view?usp=sharing"
+                        href="https://docs.google.com/document/d/1rX9nmXSMJOeso7q_ku1RGmYjyIzj0YeOfaeUEDW7_i0/edit?usp=sharing"
                         target="_blank"
                         rel="noopener noreferrer"
                     >

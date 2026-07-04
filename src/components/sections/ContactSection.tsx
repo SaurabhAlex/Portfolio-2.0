@@ -1,10 +1,10 @@
 export default function ContactSection() {
     return (
-        <section className="py-section-padding px-12 max-w-[1400px] mx-auto" id="contact">
-            <div className="glass-card p-8 md:p-12 lg:p-16 rounded-[2rem] grid grid-cols-1 lg:grid-cols-2 gap-16 bg-surface-container/20 border-white/5">
-                <div>
+        <section className="py-section-padding px-4 sm:px-8 md:px-12 max-w-[1400px] mx-auto" id="contact">
+            <div className="glass-card p-8 md:p-12 lg:p-16 rounded-[2rem] grid grid-cols-1 lg:grid-cols-2 gap-16 bg-surface-container/20 border-white/5 items-center">
+                <div className="flex flex-col justify-center pb-8 lg:pb-0">
                     <h2 className="text-3xl md:text-4xl font-bold text-on-surface mb-6 leading-tight">Let&apos;s build something extraordinary.</h2>
-                    <p className="text-on-surface-variant mb-12 text-sm md:text-base leading-relaxed">
+                    <p className="text-on-surface-variant mb-8 text-sm md:text-base leading-relaxed">
                         Whether you have a specific project in mind or just want to chat about AI and mobile tech, I&apos;m always open to new
                         connections.
                     </p>

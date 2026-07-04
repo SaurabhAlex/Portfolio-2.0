@@ -1,53 +1,46 @@
 export default function Footer() {
     return (
-        <footer className="bg-[#0a0a0c] border-t border-white/5">
-            <div className="max-w-container-max mx-auto px-[110px] sm:px-[110px] py-12 flex flex-col md:flex-row justify-between items-center gap-8">
-                <div className="text-center md:text-left">
-                    <a
-                        className="text-xl text-on-surface font-bold tracking-tight"
-                        href="#"
-                    >
-                        Saurabh Gupta
-                    </a>
-                    <p className="text-on-surface-variant text-sm mt-2">
-                        © 2026 Saurabh Gupta. Built with precision and kinetic energy.
+        <footer className="border-t border-white/5 py-8 px-4 sm:px-8 md:px-12 max-w-[1400px] mx-auto">
+            <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
+
+                <div className="text-center sm:text-left">
+                    <p className="text-white font-bold text-sm">Saurabh Gupta</p>
+                    <p className="text-on-surface-variant text-xs mt-1">
+                        Flutter Developer · Software Engineer
                     </p>
                 </div>
-                <div className="flex gap-8">
+
+                <div className="flex items-center gap-3">
                     <a
-                        className="text-xs font-medium text-on-surface-variant hover:text-primary-container transition-colors"
+                        href="https://www.linkedin.com/in/saurabhguptasde"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 hover:border-cyan-400/40 transition-all"
+                    >
+                        <span className="material-symbols-outlined text-white/70 text-lg">person</span>
+                    </a>
+                    <a
                         href="https://github.com/SaurabhAlex"
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 hover:border-cyan-400/40 transition-all"
                     >
-                        GitHub
+                        <span className="material-symbols-outlined text-white/70 text-lg">code</span>
                     </a>
-
                     <a
-                        className="text-xs font-medium text-on-surface-variant hover:text-primary-container transition-colors"
-                        href="https://www.linkedin.com/in/saurabhguptasde/"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                    >
-                        LinkedIn
-                    </a>
-
-                    <a
-                        className="text-xs font-medium text-on-surface-variant hover:text-primary-container transition-colors"
                         href="https://leetcode.com/u/saurabhgupta_/"
                         target="_blank"
                         rel="noopener noreferrer"
+                        className="w-9 h-9 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center hover:bg-white/10 hover:border-cyan-400/40 transition-all"
                     >
-                        LeetCode
-                    </a>
-
-                    <a
-                        className="text-xs font-medium text-on-surface-variant hover:text-primary-container transition-colors"
-                        href="mailto:saurabhguptasde@gmail.com"
-                    >
-                        Email
+                        <span className="material-symbols-outlined text-white/70 text-lg">terminal</span>
                     </a>
                 </div>
+
+                <p className="text-on-surface-variant text-xs">
+                    © 2025 Saurabh Gupta. All rights reserved.
+                </p>
+
             </div>
         </footer>
     );

@@ -1,6 +1,6 @@
 export default function AboutSection() {
     return (
-        <section className="py-section-padding px-12 max-w-[1400px] mx-auto" id="about">
+        <section className="py-section-padding px-4 sm:px-8 md:px-12 max-w-[1400px] mx-auto" id="about">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-stack-lg items-center">
                 <div className="lg:col-span-7 space-y-6">
                     <h2 className="font-headline-md text-headline-md text-on-surface">About Me</h2>
@@ -36,20 +36,20 @@ export default function AboutSection() {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6">
-                    <div className="glass-card p-8 rounded-2xl flex flex-col items-center justify-center text-center bg-surface-container/30">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 lg:gap-6 items-stretch">
+                    <div className="glass-card p-8 rounded-2xl flex flex-col items-center justify-center text-center bg-surface-container/30 h-full min-h-[120px]">
                         <p className="text-4xl font-bold text-primary-container mb-2">4+</p>
                         <p className="text-on-surface-variant text-[10px] font-bold tracking-widest uppercase">Apps Shipped</p>
                     </div>
-                    <div className="glass-card p-8 rounded-2xl flex flex-col items-center justify-center text-center bg-surface-container/30">
+                    <div className="glass-card p-8 rounded-2xl flex flex-col items-center justify-center text-center bg-surface-container/30 h-full min-h-[120px]">
                         <p className="text-4xl font-bold text-primary-container mb-2">3+</p>
                         <p className="text-on-surface-variant text-[10px] font-bold tracking-widest uppercase">Years of Experience</p>
                     </div>
-                    <div className="glass-card p-8 rounded-2xl flex flex-col items-center justify-center text-center bg-surface-container/30">
+                    <div className="glass-card p-8 rounded-2xl flex flex-col items-center justify-center text-center bg-surface-container/30 h-full min-h-[120px]">
                         <p className="text-4xl font-bold text-primary-container mb-2">~60%</p>
                         <p className="text-on-surface-variant text-[10px] font-bold tracking-widest uppercase">GPS Payload Reduced</p>
                     </div>
-                    <div className="glass-card p-8 rounded-2xl flex flex-col items-center justify-center text-center bg-surface-container/30">
+                    <div className="glass-card p-8 rounded-2xl flex flex-col items-center justify-center text-center bg-surface-container/30 h-full min-h-[120px]">
                         <p className="text-4xl font-bold text-primary-container mb-2">15min</p>
                         <p className="text-on-surface-variant text-[10px] font-bold tracking-widest uppercase">CI/CD Cycle · Was 3hrs</p>
                     </div>
